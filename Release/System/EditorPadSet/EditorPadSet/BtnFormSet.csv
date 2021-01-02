@@ -1,0 +1,4 @@
+#BtnFormSet,,,,,,,,,,,,,,,,,,,,,
+ButtonFormN,名称,PushSound,MoveSound,Margin[0],Margin[1],Margin[2],Margin[3],BorderThickenss,BackGroundTransparency,BorderColorR,BorderColorG,BorderColorB,WaitingColorR,WaitingColorG,WaitingColorB,CursorColorR,CursorColorG,CursorColorB,PushedColorR,PushedColorG,PushedColorB
+0,インデックス,swish1.mp3,-1,1,0,1,0,0,0,-1,-1,-1,153,153,153,255,255,204,51,102,204
+1,ボタン,swish1.mp3,-1,1,1,1,1,1,0,153,153,153,-1,-1,-1,255,255,204,255,204,102

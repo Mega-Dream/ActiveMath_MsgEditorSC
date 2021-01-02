@@ -1,0 +1,5 @@
+Åö
+#MsgBoxSet
+MsgBoxFormNumber,0
+Width,500
+Height,178

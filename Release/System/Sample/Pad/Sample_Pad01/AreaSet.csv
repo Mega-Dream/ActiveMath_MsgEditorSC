@@ -1,0 +1,5 @@
+#AreaSet
+AreaN,Location[0],Location[1],Margin[0],Margin[1],Margin[2],Margin[3],BorderThickenss,BorderType,Padding[0],Padding[1],Padding[2],Padding[3],Width,Height,BackGroundTransparency,BackColorR,BackColorG,BackColorB,BorderColorR,BorderColorG,BorderColorB,Active,Image,Line[0],Line[1],Line[2],Line[3]
+0,0,70,0,0,0,0,0,0,4,4,4,0,320,27,70,102,102,102,153,204,255,1,,4,25,316,27
+1,-222222,-111111,0,0,0,0,0,0,4,1,4,0,320,78,70,0,51,153,-1,-1,-1,2,,0,0,0,0
+2,-222222,-111111,0,0,0,0,0,0,4,1,4,0,320,160,70,0,51,153,-1,-1,-1,1,,0,0,0,0

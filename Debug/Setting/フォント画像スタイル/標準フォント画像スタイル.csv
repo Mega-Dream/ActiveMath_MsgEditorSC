@@ -1,0 +1,31 @@
+no,title,memo
+0,root.png,√　根号
+1,paren1.png,(　パーレン開き
+2,paren2.png,)　パーレン閉じ
+3,brace1.png,{　ブレイス開き
+4,brace2.png,}　ブレイス閉じ
+5,bracket1.png,[　ブラケット開き
+6,bracket2.png,]　ブラケット閉じ
+7,absolute1.png,|　絶対値記号開き
+8,absolute2.png,|　絶対値記号閉じ
+9,arrow9.png,左上矢印
+10,arrow10.png,右上矢印
+11,arrow11.png,右下矢印
+12,arrow12.png,左下矢印
+13,arrow13.png,右上がり上に凸
+14,arrow14.png,右下がり上に凸
+15,arrow15.png,右下がり下に凸
+16,arrow16.png,右上がり下に凸
+17,brace3.png,{　ブレイス開き縦2倍
+18,brace4.png,}　ブレイス閉じ縦2倍
+19,empty.png,空集合
+20,cursive_l.png,筆記体エル
+21,parallel.png,//　平行
+22,parallelogram.png,平行四辺形
+23,arc.png,⌒　弧
+24,minusplus.png,マイナスプラス
+,,
+,,
+,,
+,,
+,,Noは0から29までの30個

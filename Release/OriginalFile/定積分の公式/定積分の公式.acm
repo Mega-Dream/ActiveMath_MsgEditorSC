@@ -1,0 +1,4 @@
+タグ個数=203
+<msg>
+<p>定積分</p><p>　<m>#int(^∫^;a;b;#func(f;x);dx)＝#primit(#func(#font(19;F);x);a;b)＝#func(#font(19;F);b)－#func(#font(19;F);a)</m></p><p>定積分の性質（<m>k</m>，<m>l</m>は定数）</p><p>　<m>#int(^∫^;a;b;#func(f;x);dx)＝#int(^∫^;a;b;#func(f;t);dt)</m></p><p>　<m>#int(^∫^;a;b;#func(kf;x)＋l#func(#font(19;g);x);dx)＝k#int(^∫^;a;b;#func(f;x);dx)＋l#int(^∫^;a;b;#func(#font(19;g);x);dx)</m></p><p>　<m>#int(^∫^;a;b;#func(f;x);dx)＝0</m>，<m>#int(^∫^;b;a;#func(f;x);dx)＝－#int(^∫^;a;b;#func(f;x);dx)</m></p><p>　<m>#int(^∫^;a;b;#func(f;x);dx)＝#int(^∫^;a;c;#func(f;x);dx)＋#int(^∫^;c;b;#func(f;x);dx)</m></p><p>偶関数，奇関数の定積分（<m>n</m>は自然数）</p><p>　<m>#int(^∫^;－a;a;#sup(x;2n);dx)＝2#int(^∫^;0;a;#sup(x;2n);dx)</m>，<m>#int(^∫^;－a;a;#sup(x;2n－1);dx)＝0</m></p><p>放物線と面積でよく使われる定積分</p><p>　<m>#int(^∫^;α;β;#fenced(x－α)#fenced(x－β);dx)＝－#f(6;1)#sup(β－α;3)</m></p>
+</msg>

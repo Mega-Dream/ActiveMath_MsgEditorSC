@@ -1,0 +1,9 @@
+★
+Dir_FontStyle_rw,.\Setting\フォントスタイル
+Title_FontStyle_rw,標準フォントスタイル.csv
+Dir_FontImgStyle_rw,.\Setting\フォント画像スタイル
+Title_FontImgStyle_rw,標準フォント画像スタイル.csv
+Dir_TagStyle_rw,.\Setting\タグスタイル
+Title_TagStyle_rw,標準タグスタイル.csv
+Dir_AppImg_rw,.\Setting\Img
+Dir_AppSound_rw,.\Setting\Sound

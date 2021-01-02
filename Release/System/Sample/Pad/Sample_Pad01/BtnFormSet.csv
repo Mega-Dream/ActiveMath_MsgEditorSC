@@ -1,0 +1,5 @@
+#BtnFormSet
+FormN,名称,PushSound,MoveSound,Margin[0],Margin[1],Margin[2],Margin[3],BorderThickenss,BackGroundTransparency,BorderColorR,BorderColorG,BorderColorB,WaitingColorR,WaitingColorG,WaitingColorB,CursorColorR,CursorColorG,CursorColorB,PushedColorR,PushedColorG,PushedColorB
+0,インデックス,-1,jump13.mp3,1,1,1,1,0,0,-1,,,-1,,,-1,,,-1,,
+1,ボタン,jab.mp3,select07.mp3,1,1,1,1,0,0,-1,,,-1,,,-1,,,153,153,153
+2,確定ボタン,button67.mp3,-2,1,1,1,1,0,0,-1,,,-1,,,-1,,,-2,,

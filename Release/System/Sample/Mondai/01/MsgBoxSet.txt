@@ -1,0 +1,17 @@
+★
+#MsgBoxSet
+MsgBoxFormNumber,0
+Width,600
+Height,200
+ナンバー1
+MsgBoxFormNumber,1
+Width,600
+Height,96
+ナンバー2
+MsgBoxFormNumber,2
+Width,600
+Height,100
+ナンバー3
+MsgBoxFormNumber,3
+Width,600
+Height,100
