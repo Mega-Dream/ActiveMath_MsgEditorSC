@@ -16,7 +16,7 @@ FontColorRGB[3],240,240,240
 Leading,5
 BlinkSpeed,0
 OutputSpeed,0
-ScrollSpeed,2
+ScrollSpeed,1
 Option,12531
 OpeningSound,
 MsgSound,

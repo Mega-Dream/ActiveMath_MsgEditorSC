@@ -10319,7 +10319,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR lpCmdLine, int) {
 
 
 	//メッセージ
-	const int HomeMsgCodeMax = 2000; //文字数
+	const int HomeMsgCodeMax = 4000; //文字数
 	char HomeMsgCode[HomeMsgCodeMax + 1] = { 0 }; //メッセージを入れる
 	//相対パスから絶対パスを取得（相対パス，パス名を格納するバッファのサイズ，絶対パス，ファイル名のアドレス）
 	//GetFullPathName(".\\System\\HomeMsg\\HomeMsg.acm", MAX_PATH, FilePath_HomeMsg, NULL);
