@@ -2470,9 +2470,9 @@ int ChageBackImg(const TCHAR *FilePath_h, struct AREA_CTRL *DisplayArea_p, int(*
 	static struct AREA_CTRL PropertyArea = { 0 };
 	static struct BTN_FORM PropertyBtnForm = { 0 };
 	static int L0 = SystemFontSize * 0;
-	static int L1 = SystemFontSize * 1.5;
+	static int L1 = (int)(SystemFontSize * 1.5);
 	static int L2 = SystemFontSize * 3;
-	static int L3 = SystemFontSize * 4.5;
+	static int L3 = (int)(SystemFontSize * 4.5);
 	static int L4 = SystemFontSize * 6;
 
 	const int PropertyBtn_Kosuu = 16;
@@ -3078,25 +3078,25 @@ int MessagePreviewMode(struct MSG_BOX_CTRL *MsgBox_p, int MsgBox_Kosuu, int MsgB
 	PropertyBtnForm.PushedColor = GetColor(255, 153, 0);
 	//■プロパティ確定ボタン
 	int L1 = SystemFontSize * 0;
-	int L2 = SystemFontSize * 1.5;
+	int L2 = (int)(SystemFontSize * 1.5);
 	int L3 = SystemFontSize * 3;
-	int L4 = SystemFontSize * 4.5;
+	int L4 = (int)(SystemFontSize * 4.5);
 	int L5 = SystemFontSize * 6;
-	int L6 = SystemFontSize * 7.5;
+	int L6 = (int)(SystemFontSize * 7.5);
 	int L7 = SystemFontSize * 9;
-	int L8 = SystemFontSize * 10.5;
+	int L8 = (int)(SystemFontSize * 10.5);
 	int L9 = SystemFontSize * 12;
-	int L10 = SystemFontSize * 13.5;
+	int L10 = (int)(SystemFontSize * 13.5);
 	int L11 = SystemFontSize * 15;
-	int L12 = SystemFontSize * 16.5;
+	int L12 = (int)(SystemFontSize * 16.5);
 	int L13 = SystemFontSize * 18;
-	int L14 = SystemFontSize * 19.5;
+	int L14 = (int)(SystemFontSize * 19.5);
 	int L15 = SystemFontSize * 21;
-	int L16 = SystemFontSize * 22.5;
+	int L16 = (int)(SystemFontSize * 22.5);
 	int L17 = SystemFontSize * 24;
-	int L18 = SystemFontSize * 25.5;
+	int L18 = (int)(SystemFontSize * 25.5);
 	int L19 = SystemFontSize * 27;
-	int L20 = SystemFontSize * 28.5;
+	int L20 = (int)(SystemFontSize * 28.5);
 	int L21 = SystemFontSize * 30;
 
 	const int PropertyBtn_Kosuu = 82;
@@ -3532,7 +3532,7 @@ int MessagePreviewMode(struct MSG_BOX_CTRL *MsgBox_p, int MsgBox_Kosuu, int MsgB
 
 			//■プロパティエリア
 			PropertyArea.Width = 605;
-			PropertyArea.Height = SystemFontSize * 1.5 * 21 - 7 + 20;
+			PropertyArea.Height = (int)(SystemFontSize * 1.5 * 21 - 7 + 20);
 			PropertyArea.Location[0] = WindowWidth - PropertyArea.Width - 10;
 			PropertyArea.Location[1] = WindowHeight - PropertyArea.Height - Statusbar.Height - 10;
 
@@ -3548,7 +3548,7 @@ int MessagePreviewMode(struct MSG_BOX_CTRL *MsgBox_p, int MsgBox_Kosuu, int MsgB
 			Form_p->ConfirmSound = ConfirmSound_Copy;
 
 			PropertyArea.Width = 140 * 2 + 6 + 6;
-			PropertyArea.Height = SystemFontSize * 1.5 * 4 - 7 + 20;
+			PropertyArea.Height = (int)(SystemFontSize * 1.5 * 4 - 7 + 20);
 
 			PropertyArea.Location[0] = WindowWidth - PropertyArea.Width - 10;
 			PropertyArea.Location[1] = WindowHeight - PropertyArea.Height - Statusbar.Height - 10;
