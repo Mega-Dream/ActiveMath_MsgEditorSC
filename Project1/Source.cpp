@@ -18,7 +18,7 @@
 
 //●グローバル変数
 namespace ActiveMath_MessageEditor {
-	char Version[] = "1.0.0";
+	char Version[] = "1.0.1";
 }
 char ApplicationTitle[] = "Active Math Message Editor";
 //PCモニターは1920 * 1080
@@ -10022,6 +10022,16 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR lpCmdLine, int) {
 	//●DXライブラリの設定↓////
 	SetWaitVSyncFlag(FALSE);//垂直同期信号をオフ
 	ChangeWindowMode(true); //ウィンドウモードの切り替え
+		//タスクバーを除く縦横のサイズを取得
+	RECT rc;
+	SystemParametersInfo(SPI_GETWORKAREA, 0, &rc, 0);
+	ScreenWidth = rc.right - rc.left;
+	ScreenHeight = rc.bottom - rc.top;
+	//真のウィンドウサイズの決定
+	GraphWidth = 1000;
+	GraphHeight = ScreenHeight - 30;
+	SetGraphMode(GraphWidth, GraphHeight, ColorBitNum);//ウインドウサイズの指定(1000, 1010, 32)
+
 	if (DxLib_Init() == -1) return -1; //DXライブラリ初期化処理
 	if (ActiveMath_Init() == -1) return -1; //ActiveMathの初期化処理
 	SetSysCommandOffFlag(TRUE); //システムのキーフックを無効にするかどうか設定する。（TRUE：無効化する　FALSE：無効化しない）　※AltキーとF10キーで処理が止まるのを防ぐ。F10キーは半角アルファベットに変換時に使用。
@@ -10052,6 +10062,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR lpCmdLine, int) {
 	SetFontThickness(0);
 	ChangeFontType(DX_FONTTYPE_ANTIALIASING);
 	//●起動時の表示
+	/*
 	//タスクバーを除く縦横のサイズを取得
 	RECT rc;
 	SystemParametersInfo(SPI_GETWORKAREA, 0, &rc, 0);
@@ -10061,6 +10072,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR lpCmdLine, int) {
 	GraphWidth = 1000;
 	GraphHeight = ScreenHeight-30;
 	SetGraphMode(GraphWidth, GraphHeight, ColorBitNum);//ウインドウサイズの指定(1000, 1010, 32)
+	*/
 	//ウィンドウサイズの決定（高さはwhile内で更新）
 	WindowWidth = GraphWidth;
 	SetWindowSizeChangeEnableFlag(FALSE, FALSE);
